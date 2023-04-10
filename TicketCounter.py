@@ -23,3 +23,6 @@ if height >=120:
            print("You have to pay $12")
 else :
    print("You have to be more than 120 cm ..Sorry")
+
+
+#The above code is just a sample for  understanding nested if statements .... Hint(You can reduce the size of code by taking a variable for bill counter)
