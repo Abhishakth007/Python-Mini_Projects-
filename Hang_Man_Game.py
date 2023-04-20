@@ -1,7 +1,7 @@
 import random
 print("Hello Budyy... The Empty Blanks contains a name of a name of a Fruit. \n")
 print("Try To Guess The Fruit Name Or You Will Lose...watch out for the life_counter")
-list_of_words = ["orange","apple","banana","jackfruit","grapes","peach","mango","guava"]
+list_of_words = ["orange","apple","banana","jackfruit","grapes","peach","mango","guava","Papaya","Pomegranate","Strawberries"]
 word_to_be_guessed = random.choice(list_of_words)
 length_of_word_to_be_guessed = len(word_to_be_guessed)
 blanks = []
