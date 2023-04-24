@@ -14,7 +14,7 @@ while not last_bidder:
     bidding_amount = int(input("Enter your bidding amount: "))
    
     auction(name_of=name, amount=bidding_amount)
-    next_bidder = input("Type 'yes' if there is another bidder or 'no' if you are the last one to bid: ")
+    next_bidder = input("Type 'yes' if there is another bidder or 'no' if you are the last one to bid: ").lower()
    
     if next_bidder == 'no':
         last_bidder = True
