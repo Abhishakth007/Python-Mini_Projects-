@@ -45,7 +45,7 @@ print(f'\nThe result of the operation {operation} is : {result}')
 
 end_of_result = False
 while not end_of_result:
-      next_operation = input(f"\nType 'yes' if you want to perform another operation with the previous output '{result}'.")
+      next_operation = input(f"\nType 'yes' if you want to perform another operation with the previous output '{result}'.").lower()
       if next_operation == "yes":
         x = result
         print(f'The first_operand is : {result}')
