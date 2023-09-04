@@ -3,10 +3,10 @@ import os
 from twilio.rest import Client
 
 
-acc_sid = "ACa7b091ae02efb078e54bb1abb8b36eee"
-acc_token = "f0337681e0ce098f6cde7c818eba950e"
-twilio_phone_number = "+16566664579"
-my_number = "+91 9550406928"
+acc_sid = #Your Acc_Sid
+acc_token = #Your Auth_Token
+twilio_phone_number = #Twitch Mobile_Number
+my_number = #Your Mobile Number
 
 
 parameters = {"lat":22.3072,
